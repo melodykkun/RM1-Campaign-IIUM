@@ -1,6 +1,6 @@
 # RM1-Campaign-IIUM
 JavaScript Interaction 
-line 56 in html file
+- in line 56 in html file
 - <button type="submit" onclick="submitForm()">Submit</button>
 - Once the submit button is clicked, it  will display a popup/alert message which is located in campaign-scrip.js
 - It calls the function submitForm() from .js file
