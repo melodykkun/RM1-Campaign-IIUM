@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="campaign-styles.css" />
+        <title>RM1 Campaign Program</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/iium_logo.png" alt="IIUM Logo" />
+            <h1>RM1 Campaign Program</h1>
+            <p id="motto">Let your contributions be</p>
+            <h3>PERPETUAL</h3>
+            <p id="motto">for the pleasure of Allah swt</p>
+            <br>
+            <p id="verse">
+                “The example of those who spend their wealth in the way of Allah is like
+                a seed [of grain] which grows seven spikes; in each spike is a hundred
+                grains. And Allah multiplies [His reward] for whom He wills. And Allah
+                is all-Encompassing and Knowing.”
+            </p>    
+            <p id="surah">Al-Baqarah:261</p>
+        </header>
+
+        <section id="monthly-deduction-form">
+            <h2>Monthly Salary Deduction Form</h2>
+            <p>
+                Required fields are followed by <span aria-label="required">*</span>.
+            </p>
+            <form id="deductionForm" onsubmit="return validateForm()">
+                <label for="name">*Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="staffNo">*Staff No.:</label>
+                <input type="text" id="staffNo" name="staffNo" required />
+
+                <label for="department">*K/C/D/I/O:</label>
+                <input type="text" id="department" name="department" required />
+
+                <label for="contactNo">*Contact No.:</label>
+                <input type="tel" id="contactNo" name="contactNo" required />
+
+                <label for="email">*Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="amount">*Amount to be Deducted RM:</label>
+                <input type="number" id="amount" name="amount" required />
+
+                <label for="effectDate">*Effective Date:</label>
+                <input type="month" id="effectDate" name="effectDate" required />
+
+                <label for="endDate">*End Date:</label>
+                <input type="month" id="endDate" name="endDate" required />
+
+                <button type="submit" onclick="submitForm()">Submit</button>
+            </form>
+        </section>
+        <section id="contact-info">
+            <h2>IIUM Endowment Fund Contact Information</h2>
+            <p>
+                IIUM Endowment Fund<br />
+                Level 3, Rectory Building<br />
+                International Islamic University Malaysia<br />
+                P.O Box 10<br />
+                50728 Kuala Lumpur<br />
+                Tel: 03 6169 4268<br />
+                Email: <a href="ief@iium.edu.my">ief@iium.edu.my</a><br />
+                Website:<a href="www.iium.edu.my/ief"> www.iium.edu.my/ief</a><br />
+                Facebook:
+                <a href="www.facebook.com/ief.official/"
+                >www.facebook.com/ief.official/</a
+                >
+            </p>
+        </section>
+        <script src="campaign-script.js"></script>
+    </body>
+</html>
