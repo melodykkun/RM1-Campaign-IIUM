@@ -8,12 +8,10 @@ body {
 }
 
 header {
-    /* background-image: linear-gradient(rgb(119, 246, 255), rgb(255, 255, 255), rgb(255, 181, 186)); */
     border: 10px;
     text-align: center;
     margin: 0;
     padding: 70px;
-    /* background-color: #99DDFF; */
 }
 
 header img {
@@ -30,7 +28,6 @@ header img {
     background-color: white;
 }
 #contact-info {
-    /* background-image: linear-gradient(rgb(255, 181, 186), rgb(255, 255, 255), rgb(119, 246, 255)); */
     font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding: 70px;
