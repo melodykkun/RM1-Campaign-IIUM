@@ -1,86 +1,94 @@
 body {
-    background-image: linear-gradient(rgb(119, 246, 255), rgb(255, 255, 255), rgb(255, 181, 186));
-    font-family: "Arial", sans-serif;
-    margin: 20px;
-    padding: 30px;
-    border: 5px solid #000000;
-    border-radius: 10px;
+  /* background-image: linear-gradient(
+    rgb(119, 246, 255),
+    rgb(255, 255, 255),
+    rgb(255, 181, 186)
+  ); */
+  background-image: url(images/flowerBG3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+  padding: 50px;
 }
 
 header {
-    background-image: url(images/flowerBG.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 10px;
-    text-align: center;
-    margin: 0;
-    padding: 50px;
+  border: 10px;
+  text-align: center;
+  margin: 0;
+  padding: 100px;
 }
-
 header img {
-    max-width: 100px;
+  max-width: 100px;
 }
-
 #monthly-deduction-form {
-    font-family: "Times New Roman", Times, serif;
-    margin: 20px;
-    border: 5px solid #1c99a4;
-    padding-top: 20px;
-    padding: 50px;
-    border-radius: 10px;
-    background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  border: 5px solid #1c99a4;
+
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: white;
 }
 #contact-info {
-    font-family: "Times New Roman", Times, serif;
-    margin: 0;
-    padding: 70px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 70px;
 }
-
 form {
-    display: grid;
-    grid-gap: 10px;
+  display: grid;
+  grid-gap: 10px;
 }
-
 button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
-
 button:hover {
-     background-color: #45a049;
+  background-color: #45a049;
 }
-h1 {
-    font-family: "Times New Roman", serif;
-    letter-spacing: 2px;
-    word-spacing: 0px;
-    color: #346b6d;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: uppercase;
+#title {
+  font-family: "Times New Roman", serif;
+  color: #346b6d;
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
 }
 #motto {
-    font-family: Georgia, serif;
-    font-size: 18px;
-    color: #310a43;
-    font-style: italic;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #310a43;
+  font-style: italic;
 }
 h3 {
-    font-family: "Times New Roman", serif;
-    font-size: 24px;
-    color: #310a43;
-    text-transform: uppercase;
+  font-family: "Times New Roman", serif;
+  font-size: 24px;
+  color: #310a43;
+  text-transform: uppercase;
+}
+#surah {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 20px;
 }
 #verse {
-    font-family: Georgia, serif;
-    font-style: italic;
-}
-#verse {
-    border: 2px dotted rgb(255, 181, 186);
-    border-radius: 10px;
-    padding: 20px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  border: 7px dotted rgb(255, 156, 156);
+  border-radius: 15px;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  /* background: #ffffff; */
+  text-shadow: 2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee,
+    5px 4px 1px #cccccc, 4px 5px 1px #eeeeee, 6px 5px 1px #cccccc,
+    7px 6px 1px #cccccc, 0px 0px 2px rgba(255, 255, 255, 0);
 }
